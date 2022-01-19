@@ -10,12 +10,13 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyDBdq3at9FMIUvTN9Y1U_yNUp9YDT8kwRI",
+  authDomain: "test-website1-86f06.firebaseapp.com",
+  projectId: "test-website1-86f06",
+  storageBucket: "test-website1-86f06.appspot.com",
+  messagingSenderId: "1061230854629",
+  appId: "1:1061230854629:web:0d39c87a384c9854332f0c",
+  measurementId: "G-5LC8HM2ZNL"
 });
 
 const MoonIcon = props => (
